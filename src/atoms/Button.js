@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Button extends Component {
   constructor(){
     super();
-    this.name = "Click Me";
+    this.name = "Dont Click Me";
   }
   render() {
      return <button>{this.name}</button>
